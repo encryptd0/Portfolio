@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+p {
+    margin: 0px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0px;
+    color: #555;
+    font-weight: 350;
+
+
+}
+
+div.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+img.logo {
+    display: block;
+    margin: 0px;
+    margin-left: 2rem;
+    margin-right: auto;
+    padding: 0;
+    width: 5%;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-img#contact-page-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 5rem;
+    align-items: left;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: lighter;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+h5 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+h6 {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+
+    gap: 0.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    align-items: left;
+    color: #111;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #007acc;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+#main-content {
+    display: block;
+    max-width: 700px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 32px 32px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    text-align: left;
+}
+
+img#front-page-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-img#contact-page-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+div#index-page {
+    display: flex;
+    justify-content: left;
+}
+
+ul#home-page-list {
+    list-style-type: none;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    padding-top: 5px;
+    margin: 0;
+    text-align: left;
+}
+
+li#home-page-list {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+i {
+    font-size: 1.9rem;
+    color: #111;
+    transition: color 0.2s;
+}
